@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+
+  <!-- body{ -->
+    <!-- /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Volta_A.jpg/1200px-Volta_A.jpg"); */
+  } -->
+  <style>
+    body{
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 1fr minmax(400px, 1600px) 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: "nav nav nav" ". content ." "foot foot foot";
+      background-color: wheat;
+    }
+    nav{
+      grid-area: nav;
+    }
+    main{
+      grid-area: content;
+    }
+    footer{
+      grid-area: foot;
+    }
+    #titulo{
+      color:olive;
+      font-size: 50px;
+      text-align: center;
+      font-style: oblique;
+    }
+    h2{
+      justify-content: center;
+      text-align: center;
+      color:orchid;
+    }
+    img{
+      margin-left: auto;
+      margin-right: auto;
+      margin: 30px;
+    }
+    .navbar-brand{
+      background-color: lightpink;
+      font-style: oblique;
+    }
+    .nav-item1{
+      background-color: olive;
+      font-style: italic;
+    }
+    .nav-item2{
+      background-color: saddlebrown;
+      font-style: italic;
+    }
+    .nav-item3{
+      background-color:royalblue;
+      font-style: italic;
+    }
+    .nav-item4{
+      background-color: palevioletred;
+      font-style: italic;
+    }
+    .nav-item5{
+      background-color: orange;
+      font-style: italic;
+    }
+    .nav-item6{
+      background-color: lightskyblue;
+      font-style: italic;
+    }
+    footer{
+      background-color: whitesmoke;
+      text-align: center;
+    }
+    p{
+      text-align: justify;
+      margin: 30px;
+    }
+    #parrafIntro{
+      text-align: justify;
+      margin: 30px;
+    }
+    table, th, td{
+      align-content: center;
+      margin: 30px;
+      border: 1px solid black;
+      background-color: blanchedalmond;
+    }
+   thead{
+     width: 100%;
+     height: 100%;
+     text-align: center;
+   }
+   tbody{
+     height: 70%;
+     width: 70%;
+     text-align: center;
+   }
+   .botones{
+     text-align: center;
+   }
+  </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="pagina2.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item1">
+                <a class="nav-link" href="pagina2.html">Los sueños</a>
+            </li>
+            <li class="nav-item2">
+              <a class="nav-link" href="porqueSoñamos.html">¿Por qué soñamos?</a>
+            </li>
+            <li class="nav-item3">
+                <a class="nav-link" href="significadoSueños.html">Significado de nuestros sueños</a>
+            </li>
+            <li class="nav-item4">
+                <a class="nav-link" href="interpretacionSueños.html">Interpretación de nuestros sueños</a>
+            </li>
+            <li class="nav-item5">
+              <a class="nav-link" href="olvidarSueños.html">¿Por qué no recordamos lo que soñamos?</a>
+          </li>
+            <li class="nav-item6">
+                <a class="nav-link" href="terapiaNocturna.html">¿Soñar puede curar traumas?</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+<main>
+<div class="inicio">
+<h1 id="titulo">¿Somos lo que soñamos?</h1>
+<h2>Más allá de imaginar cosas mientras dormimos</h2>
+<p id="parrafIntro">Desde el principio de los tiempos el ser humano ha intentado darle un sin fin de significados a los sueños. Desde el primer hombre en la tierra hasta los más famosos psicoanalistas de hoy en día han pasado por el intento de interpretar este maravilloso suceso que se da cuando dormimos. Definitivamente si eres un apasionado de estas cosas inexplicables de la vida, quédate e informate sobre esto.</p>
+<div class="botones">
+  <button id="boton1">Cambia color</button>
+  <button id="boton2">Ocultar</button>
+  <button id="boton3">Mostrar</button>
+</div>
+</div>
+
+<center>
+<img id="imagenPadding" src="https://www.consalud.es/uploads/s1/10/61/21/0/persona-durmiendo-foto-freepik_11_585x249.jpeg" alt="">
+</center>
+<h2>¿Qué es un sueño?</h2>
+<p>En el libro de "La farmacia de los sueños: La alteración química de los estados de consciencia", J. Allan Hobson afirma que: "La actividad mental que ocurre en el sueño se caracteriza por una imaginación sensomotora vivida que se experimenta como si fuera la realidad despierta, a pesar de características cognitivas como la imposibilidad del tiempo, del lugar, de las personas y de las acciones; emociones, especialmente el miedo, el regocijo, y la ira, predominan sobre la tristeza, la vergüenza y la culpabilidad y a veces alcanzan una fuerza suficiente para despertar al durmiente; la memoria, incluso de los muy vívidos, es tenue y tiende a desvanecerse rápidamente después de despertarse a no ser que se tomen medidas especiales para retenerlo"</p>
+<h2>Diferencias en los sueños a partir de las distintas fases</h2>
+<p>Los sueños que se reportan cuando uno se despierta en la fase REM (Rapid Eye Movement) del sueño son típicamente más largos, más nítidos perceptivamente (llegando a tomar la forma de alucinaciones), más animados motóricamente, que cambian rápidamente de escena y son más raros y estrafalarios, más cargados emocionalmente y menos relacionados con nuestra vida normal que los que se narran cuando nos despertamos en la fase NREM. Por el contrario los que surgen al despertar en las fases NREM contienen más representaciones de nuestras preocupaciones cotidianas y son más de tipo pensamiento (historia) y menos como imágenes (Hobson, 2000).</p>
+<table>
+  <thead>
+  <tr>
+    <th>Fase</th>
+    <th>Duración</th>
+    <th>Contenido</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Etapa I</td>
+    <td>Alrededor de 10 minutos</td>
+    <td>Es en la que se entra y se sale del sueño. En ellas son muy frecuentes los despertares y las sensaciones de "caída", los ojos se mueven lentamente y la actividad muscular se enlentece. Es curioso que nos damos cuenta de lo que ocurre a nuestro alrededor e incluso llegamos a creer que estamos despiertos.</td>
+  </tr>
+  <tr>
+    <td>Etapa II</td>
+    <td>Dura un promedio de 40 minutos</td>
+    <td>El sueño se hace más profundo, el tono muscular es más reducido y el movimiento de los ojos se detiene.</td>
+  </tr>
+  <tr>
+    <td>Etapa III</td>
+    <td>Dura de 2 a 3 minutos</td>
+    <td>Es la etapa del sueño en la que realmente descansamos y en la que si nos despertaramos nos sentiríamos confundidos. Es donde generalmente se dan trastornos de sueño como el sonambulismo, terrores nocturnos y mojar la cama.</td>
+  </tr>
+  <tr>
+    <td>Etapa IV</td>
+    <td>Apróximadamente 20 minutos</td>
+    <td>Aquí es donde nos encontramos profundamente dormidos y descansamos tanto física como psíquicamente, aunque no es la fase en la que soñamos podemos encontrarnos con imágenes.</td>
+  </tr>
+  <tr>
+    <td>Etapa REM</td>
+    <td>Alrededor de 30 minutos</td>
+    <td>La etapa REM es donde soñamos en forma de historia, el tono muscular no existe, por ende cuando queremos gritar en un sueño, no podemos. Las ondas cerebrales son similares a cuando una persona está despierta por lo que el ritmo cardiaco y la presión aumentan, y con ellas el movimiento de los ojos, sin embargo los músculos se paralizan.</td>
+  </tr>
+</tbody>
+</table>
+<p>Estas fases se repiten cíclicamente, y se dividen en ciclos de apróximadamente 90 a 120 minutos. Para más información puedes consultar la página de <a href="http://www.psicoterapeutas.com/pacientes/suenyos.htm">psicoterapeutas</a> del Centro de Psicología Clínica y Psicoterapia García Higuera en Madrid, España. </p>
+<p>Ahora que sabemos qué es un sueño y las diferentes clases de este, deberíamos preguntarnos el <a href="porqueSoñamos.html">motivo</a> por el cual nos sucede esta clase de "alucinación" en estado de reposo. </p>
+</main>
+
+<footer>
+    <h3>Clínica del sueño</h3>
+    <p1>Cra 19a # 107-14</p1>
+    <p1>Tel: 3889446</p1>
+    <p1>by Sarah Torres Prada</p1>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="sarahTorres.js"></script>
+
+</body>
+</html>
