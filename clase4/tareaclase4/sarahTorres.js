@@ -31,7 +31,7 @@ function hacerTabla() {
     tabla.innerHTML = "";
     addHeaders();
     for (item of itemM) {
-        let fila = document.createElement("tr");
+       // let fila = document.createElement("tr");
         let tdMateria = document.createElement("td");
         tdMateria.innerHTML = itemM;
         filaM.appendChild(tdMateria);
